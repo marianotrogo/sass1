@@ -92,8 +92,10 @@
 }
 
 .item-menu li a:hover{
-    background-color: #d7c89d;
+    border-top: solid 5px #d7c89d;
+    border-bottom: solid 5px #d7c89d;
     transition: 0.5s;
+    font-size: 25px;
     
 }
 

@@ -30,8 +30,38 @@
     grid-area: logo;
     background-color: white;
 }
+/*----Bootstrap------*/
+.bg{
+    background-color: #fbb5bf !important;
+}
+
+#navbarNav a{
+    color:white !important;
+}
+
+#navbarNav a:hover{
+    color:white !important;
+    transition: 2s;
+}
 
 
+.carousel-inner{
+    height: 100vh !important;
+}
+
+footer{
+    color: white;
+    background-color: #fbb5bf;
+}
+
+
+
+
+
+
+
+
+/*------Bootstrap----------*/
 
 .item-menu{
     position: sticky;

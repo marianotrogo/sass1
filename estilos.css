@@ -13,11 +13,9 @@
         "main"
         "footer";
 }
-
-
+/*--------Areas Grid----------*/
 .header{
     grid-area: header;
-
 }
 
 .main{
@@ -27,5 +25,18 @@
 .footer{
     grid-area: footer;
 }
+/*--------logo----------*/
+.item-logo{
+    display: flex;
+    justify-content: center;
+}
+.item-logo img{
+    width: 150px;
+    height: 150px;
+
+}
+
+/*-----------Navegador---------*/
+
 
 

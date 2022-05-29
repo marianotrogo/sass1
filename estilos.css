@@ -1,14 +1,14 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Plus Jakarta Sans', sans-serif; 
+    font-family: 'Plus Jakarta Sans', sans-serif !important; 
     
 }
 
 .container{
     display: grid;
     grid-template-areas:
-        "logo"  
+        "logo"
         "header"
         "main"
         "footer";
@@ -16,14 +16,17 @@
 /*--------Areas Grid----------*/
 .header{
     grid-area: header;
+    
 }
 
 .main{
     grid-area: main;
+   
 }
 
 .footer{
     grid-area: footer;
+    background-color: #fbb5bf !important;
 }
 /*--------logo----------*/
 .item-logo{
@@ -38,5 +41,58 @@
 
 /*-----------Navegador---------*/
 
+.bg{
+    background-color: #fbb5bf !important;
+}
 
+.nav-link{
+    color: white !important;
+    font-weight: bold !important;
+    font-size: 1.2em !important;
+    position: sticky;
+    top: 0;
+}
 
+.nav-item:hover{
+    border-top: 2px solid white !important;
+    border-bottom: 2px solid white !important;
+}
+.btn{
+    border: 1px solid white !important ;
+    color: white !important;
+}
+.btn:hover{
+    background-color: #d7c89d !important;
+}
+
+/*Footer*/
+
+.ms-3 .bi, .text-muted{
+   font-size: 1.2em;
+   color: white;
+   text-decoration: none;
+   text-align: center;
+   padding: 5px;
+}
+
+.footer{
+    height: 150px;
+}
+
+.footer .row > div{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 15px;
+    color: white;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.medPagos >li{
+    list-style: none;
+    border-left: 1px solid white;
+    margin: 5px;
+    padding-left: 5px;
+    
+}

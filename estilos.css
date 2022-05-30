@@ -14,10 +14,8 @@
 .bg{
     background-color: #fbb5bf !important;
 }
-.navbar{
-    position: sticky !important;
-    top: 0 !important;
-}
+
+
 .nav-link{
     color: white !important;
     font-weight: bold !important;

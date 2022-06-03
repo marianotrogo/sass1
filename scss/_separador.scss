@@ -1,0 +1,16 @@
+#separador{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+}
+
+#separador .content{
+    width: 150%;
+    height: 30px;
+}
+
+.bg-warning{
+    background: $gradientColor;
+    border-top:.5px solid rgb(127, 127, 127);
+}

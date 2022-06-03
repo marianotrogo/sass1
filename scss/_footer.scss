@@ -1,0 +1,23 @@
+/*----------FOOTER------------*/
+.footer{
+    background-color: $footColor !important;
+}
+
+.footer, li, a, i{
+    list-style: none;
+    color: rgb(48, 47, 47) !important;
+    text-decoration: none !important;
+    padding: 5px;
+    
+}
+
+.footer + a:hover{
+    text-decoration: dashed;
+    color: blue;
+}
+
+
+#spaceFoot{
+    width: 100vw;
+    height: 2vh;
+}

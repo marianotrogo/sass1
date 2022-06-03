@@ -1,0 +1,22 @@
+
+.card-border{
+    border: solid 10px white;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all ease-out 0.2s;
+ 
+}
+
+.card-border:hover{
+    transform: scale(1.05);
+}
+
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    color: #000;
+    font-weight: bold;
+}

@@ -1,0 +1,17 @@
+.nav-link{
+    color: $linkColor !important;
+    font-weight: bold !important;
+    font-size: 1.2em !important;
+}
+
+.nav-item:hover{
+    border-top: 2px solid white !important;
+    border-bottom: 2px solid white !important;
+}
+.btn{
+    border: 1px solid white !important ;
+    color: white !important;
+}
+.btn:hover{
+    background-color: $secondaryColor !important;
+}

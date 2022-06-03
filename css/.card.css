@@ -1,0 +1,25 @@
+/* line 2, ../../../Desktop/Trogo-SASS/scss/.card.scss */
+.card-border {
+  border: solid 10px white;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: all ease-out 0.2s;
+}
+
+/* line 10, ../../../Desktop/Trogo-SASS/scss/.card.scss */
+.card-border:hover {
+  transform: scale(1.05);
+}
+
+/* line 14, ../../../Desktop/Trogo-SASS/scss/.card.scss */
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+  color: #000;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=.card.css.map */
